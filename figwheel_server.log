@@ -1,0 +1,242 @@
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 2.965 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.225 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.058 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/datatable/core.cljs   line:14  column:3  ----[0m
+
+  [1mWrong number of args (0) passed to reagent.core/atom[0m
+
+  [36m10[0m  [36m(defonce debug?[0m
+  [36m11[0m  [36m  ^boolean js/goog.DEBUG)[0m
+  [36m12[0m  [36m[0m
+  [36m13[0m  [36m(defonce app-state[0m
+  [33m14[0m  [1m  (reagent/atom[0m
+  [0m  [0m  [33m  ^--- Wrong number of args (0) passed to reagent.core/atom[0m
+  [36m15[0m  [36m   ))[0m
+  [36m16[0m  [36m[0m
+  [36m17[0m  [36m[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;[0m
+
+[36m----  Compiler Warning : Please see src/cljs/datatable/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.284 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.196 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.2 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/datatable/core.cljs   line:27  column:26  ----[0m
+
+  [1mUse of undeclared Var datatable.core/lightblue[0m
+
+  [36m23[0m  [36m  [:p (:text @ratom)[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m  [:style[0m
+  [36m26[0m  [36m        [:body[0m
+  [33m27[0m  [1m		    [:background-color lightblue][0m
+  [0m  [0m  [33m                         ^--- Use of undeclared Var datatable.core/lightblue[0m
+  [36m28[0m  [36m]][0m
+  [36m29[0m  [36m  [:table {:class "table"}[0m
+  [36m30[0m  [36m          [:thead[0m
+  [36m31[0m  [36m           [:tr[0m
+  [36m32[0m  [36m            [:th "Emp #"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/datatable/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.163 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/datatable/core.cljs   line:27  column:26  ----[0m
+
+  [1mUse of undeclared Var datatable.core/lightblue[0m
+
+  [36m23[0m  [36m  [:p (:text @ratom)[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m  [0m
+  [36m26[0m  [36m        [:body[0m
+  [33m27[0m  [1m		    [:background-color lightblue][0m
+  [0m  [0m  [33m                         ^--- Use of undeclared Var datatable.core/lightblue[0m
+  [36m28[0m  [36m][0m
+  [36m29[0m  [36m  [:table {:class "table"}[0m
+  [36m30[0m  [36m          [:thead[0m
+  [36m31[0m  [36m           [:tr[0m
+  [36m32[0m  [36m            [:th "Emp #"][0m
+
+[36m----  Compiler Warning : Please see src/cljs/datatable/core.cljs  ----[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.396 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[31mFailed to compile "resources/public/js/compiled/app.js" in 0.72 seconds.[0m
+[36m----  Could not Read  src/cljs/datatable/core.cljs   line:27  column:19  ----[0m
+
+  [1mInvalid number format [1px][0m
+
+  [36m26[0m  [36m        [:body[0m
+  [33m27[0m  [1m		    [:border 1px solid black][0m
+  [0m  [0m  [33m                  ^--- Invalid number format [1px][0m
+  [36m28[0m  [36m][0m
+  [36m29[0m  [36m  [:table {:class "table"}[0m
+  [36m30[0m  [36m          [:thead[0m
+
+[36m----  Reader Error : Please see src/cljs/datatable/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.304 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.056 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.084 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.102 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.123 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.24 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.988 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.067 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[31mFailed to compile "resources/public/js/compiled/app.js" in 0.692 seconds.[0m
+[36m----  Could not Analyze  src/cljs/datatable/core.cljs   line:13  column:1  ----[0m
+
+  [1mParameter declaration "reagent/atom" should be a vector[0m
+
+  [36m11[0m  [36m  ^boolean js/goog.DEBUG)[0m
+  [36m12[0m  [36m[0m
+  [33m13[0m  [1m(defn app-state[0m
+  [0m  [0m  [33m^--- Parameter declaration "reagent/atom" should be a vector[0m
+  [36m14[0m  [36m  (reagent/atom[0m
+  [36m15[0m  [36m   {:text " DATATABLE"}))[0m
+
+[36m----  Analysis Error : Please see src/cljs/datatable/core.cljs  ----[0m
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.123 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.127 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.055 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.109 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.975 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.973 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.254 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.049 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.719 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.645 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.578 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.515 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.5 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.065 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.57 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.474 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.268 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.225 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.336 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.168 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 1.165 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.471 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.472 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
+[0mCompiling "resources/public/js/compiled/app.js" from ["src/cljs"]...[0m
+[32mSuccessfully compiled "resources/public/js/compiled/app.js" in 0.369 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/dev/cljs_deps.js
+notifying browser that file changed:  out\datatable\core.js
